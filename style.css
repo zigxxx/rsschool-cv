@@ -1,3 +1,27 @@
-head {
-    padding: 10px;
+.container {
+  max-width: 1024px;
+  margin: 64px auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  background: url(https://img.wallpapersafari.com/desktop/1024/576/75/50/PhxoiF.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
 }
