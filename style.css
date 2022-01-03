@@ -1,3 +1,7 @@
+body {
+  background-color: lightgray;
+}
+
 h1 {
   font-size: 4rem;
 }
@@ -8,6 +12,18 @@ h2 {
 
 li {
   margin-bottom: 8px;
+}
+
+pre {
+  font-size: 1rem;
+  background-color: #eee;
+  padding: 8px 0;
+}
+
+section {
+  border-bottom: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 0 32px;
 }
 
 .container {
@@ -31,6 +47,12 @@ li {
   border-radius: 100%;
 }
 
+.content {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: #fff;
+}
+
 .personal-info {
   display: flex;
   align-items: flex-start;
@@ -50,4 +72,37 @@ li {
 .contact-list {
   padding-left: 22px;
   margin-top: 0;
+}
+
+.skills {
+  font-size: 1.2rem;
+}
+
+.education {
+  font-size: 1.2rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.navigation {
+  display: flex;
+  gap: 64px;
+}
+
+.rs-logo {
+  width: 150px;
+
+}
+
+.github-logo {
+  width: 60px;
+}
+
+.year {
+  margin-right: auto;
+  font-size: 1.5rem;
 }
