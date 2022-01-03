@@ -1,3 +1,15 @@
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
 .container {
   max-width: 1024px;
   margin: 64px auto;
@@ -14,14 +26,28 @@
 }
 
 .avatar {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
 }
 
-h1 {
-  font-size: 4rem;
+.personal-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 1.2rem;
 }
 
-h2 {
-  font-size: 2.5rem;
+.summary {
+  flex-basis: 60%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list {
+  padding-left: 22px;
+  margin-top: 0;
 }
