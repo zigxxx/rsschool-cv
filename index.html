@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Andrei Kuznechyk</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img class="avatar" src="avatar.jpg" alt="avatar">
+      <div>
+        <h1>Andrei Kuznechyk</h1>
+        <h2>Trainee JS developer</h2>
+      </div>
+    </header>
+    <main class="content">
+      <section class="personal-info">
+        <div class="summary">
+          <h2>About me</h2>
+          <p>
+            While working with hardware I decided that I want to evolve in the sphere of IT. I'm sure that I can do it
+            because I'm hardworking enough and responsible. I'm fully opened to new opportunities and new information.
+            Teamwork is not a problem for me.
+          </p>
+        </div>
+        <div class="contacts">
+          <h2>Contacts</h2>
+          <ul class="contact-list">
+            <li>Location: Minsk, Belarus</li>
+            <li>Phone: +375 29 510-75-15</li>
+            <li>
+              Email: <a href="mailto:zigxxx1@gmail.com">zigxxx1@gmail.com</a>
+            </li>
+            <li>GitHub: zigxxx</li>
+            <li>Discord: zigxxx#4573</li>
+          </ul>
+        </div>
+      </section>
+      <section class="skills">
+        <h2>Professional skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      <section class="code-example">
+        <h2>Code example</h2>
+        <pre>
+          function strCount(obj) {
+            var i=0;
+            for (var key in obj) {
+              if (typeof (obj[key]) == 'string') i++;
+              if (typeof obj[key] == 'object') i += strCount(obj[key]);
+            }
+            return i;
+          }
+        </pre>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Belarusian State University of Informatics and Radioelectronics</li>
+          <li>
+            Courses:
+            <ul>
+              <li>HTML Academy</li>
+            </ul>
+          </li>
+        </ul>
+        <h3>English level: A2</h3>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <span class="year">2022</span>
+      <nav class="navigation">
+        <a href="https://rs.school/js/" target="_blank">
+          <img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="rs-logo">
+        </a>
+        <a href="https://github.com/zigxxx" target="_blank">
+          <img class="github-logo" src="github-logo.svg" alt="github-logo">
+        </a>
+      </nav>
+    </footer>
+  </div>
+
+</body>
+
+</html>
