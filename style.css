@@ -1,0 +1,108 @@
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+pre {
+  font-size: 1rem;
+  background-color: #eee;
+  padding: 8px 0;
+}
+
+section {
+  border-bottom: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 0 32px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 64px auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  background: url(https://img.wallpapersafari.com/desktop/1024/576/75/50/PhxoiF.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.content {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: #fff;
+}
+
+.personal-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.summary {
+  flex-basis: 60%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list {
+  padding-left: 22px;
+  margin-top: 0;
+}
+
+.skills {
+  font-size: 1.2rem;
+}
+
+.education {
+  font-size: 1.2rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.navigation {
+  display: flex;
+  gap: 64px;
+}
+
+.rs-logo {
+  width: 150px;
+
+}
+
+.github-logo {
+  width: 60px;
+}
+
+.year {
+  margin-right: auto;
+  font-size: 1.5rem;
+}
